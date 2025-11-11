@@ -88,7 +88,7 @@ image_gen.flow_from_directory(train_path)
 
 image_gen.flow_from_directory(test_path)
 
-#Rithiga Sri.B 212221230083
+
 
 model = models.Sequential()
 model.add(keras.Input(shape=(image_shape)))
@@ -143,7 +143,7 @@ predictions = pred_probabilities > 0.5
 print(classification_report(test_image_gen.classes,predictions))
 confusion_matrix(test_image_gen.classes,predictions)
 
-print("Rithiga Sri.B 212221230083")
+print("chaithanya chowla 2305002004")
 import random
 list_dir=["Un Infected","parasitized"]
 dir_=(random.choice(list_dir))
